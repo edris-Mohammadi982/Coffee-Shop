@@ -13,10 +13,10 @@ module.exports = {
       },
       boxShadow: {
         "normal": "0px 1px 10px 0px rgba(0, 0, 0, 0.05)"
-      }
-    },
-    borderRadius: {
-      "4xl": "2rem"
+      },
+      borderRadius: {
+        "4xl": "2rem"
+      },
     },
     fontFamily: {
       "Dana": "Dana",

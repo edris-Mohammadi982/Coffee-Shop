@@ -11,7 +11,7 @@
 
 <body class="font-Dana">
     <!-- All App Icons -->
-    <svg>
+    <svg class="hidden">
         <symbol id="shop" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
             stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round"
@@ -34,82 +34,84 @@
         </symbol>
     </svg>
 
-    <header>
-        <!-- logo & menu -->
-        <nav>
-            <!-- logo -->
-            <div>
-                <img src="./images/app-logo.png" alt="Golden Coffee">
-            </div>
-            <!-- menu -->
-            <ul>
-                <li>
-                    <a href="#">صفحه اصلی</a>
-                </li>
-                <!-- has sub -->
-                <li>
-                    <a href="#">فروشگاه</a>
-                    <!-- submenu -->
-                    <ul>
-                        <li>
-                            <a href="#">قهوه ویژه</a>
-                        </li>
-                        <li>
-                            <a href="#">ویژه در سطح جهانی</a>
-                        </li>
-                        <li>
-                            <a href="#">قهوه درجه یک</a>
-                        </li>
-                        <li>
-                            <a href="#">ترکیبات تجاری</a>
-                        </li>
-                        <li>
-                            <a href="#">کپسول قهوه</a>
-                        </li>
-                        <li>
-                            <a href="#">قهوه زینو برزیلی</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">دیکشنری</a>
-                </li>
-                <li>
-                    <a href="#">بلاگ</a>
-                </li>
-                <li>
-                    <a href="#">درباره ما</a>
-                </li>
-                <li>
-                    <a href="#">تماس با ما</a>
-                </li>
-            </ul>
-        </nav>
+    <header class="w-[90%] h-24 rounded-3xl p-5 pl-4 pr-10 mx-auto flex items-center bg-black/50">
+        <div class="flex w-full justify-between">
+            <!-- logo & menu -->
+            <nav class="flex gap-9">
+                <!-- logo -->
+                <div>
+                    <img src="./images/app-logo.png" alt="Golden Coffee">
+                </div>
+                <!-- menu -->
+                <ul class="flex gap-9">
+                    <li>
+                        <a href="#">صفحه اصلی</a>
+                    </li>
+                    <!-- has sub -->
+                    <li>
+                        <a href="#">فروشگاه</a>
+                        <!-- submenu -->
+                        <ul class="hidden">
+                            <li>
+                                <a href="#">قهوه ویژه</a>
+                            </li>
+                            <li>
+                                <a href="#">ویژه در سطح جهانی</a>
+                            </li>
+                            <li>
+                                <a href="#">قهوه درجه یک</a>
+                            </li>
+                            <li>
+                                <a href="#">ترکیبات تجاری</a>
+                            </li>
+                            <li>
+                                <a href="#">کپسول قهوه</a>
+                            </li>
+                            <li>
+                                <a href="#">قهوه زینو برزیلی</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">دیکشنری</a>
+                    </li>
+                    <li>
+                        <a href="#">بلاگ</a>
+                    </li>
+                    <li>
+                        <a href="#">درباره ما</a>
+                    </li>
+                    <li>
+                        <a href="#">تماس با ما</a>
+                    </li>
+                </ul>
+            </nav>
 
-        <!-- card & theme toggle & login link -->
-        <div class="bg">
-            <!-- card & switch theme icon -->
-            <div>
-                <!-- card -->
-                <div>
-                    <svg class="w-8 h-8">
-                        <use xlink:href="#shop"></use>
-                    </svg>
+            <!-- card & theme toggle & login link -->
+            <div class="flex">
+                <!-- card & switch theme icon -->
+                <div class="flex gap-5">
+                    <!-- card -->
+                    <div>
+                        <svg class="w-8 h-8">
+                            <use xlink:href="#shop"></use>
+                        </svg>
+                    </div>
+                    <!-- switch theme -->
+                    <div>
+                        <svg class="w-8 h-8">
+                            <use xlink:href="#moon"></use>
+                        </svg>
+                    </div>
                 </div>
-                <!-- switch theme -->
-                <div>
+                <!-- login link -->
+                <a class="flex" href="#">
                     <svg class="w-8 h-8">
-                        <use xlink:href="#moon"></use>
+                        <use xlink:href="#arrow-left"></use>
                     </svg>
-                </div>
+                    ورود | ثبت‌نام
+                </a>
             </div>
-            <!-- login link -->
-            <a href="#">
-                <svg class="w-8 h-8">
-                    <use xlink:href="#arrow-left"></use>
-                </svg>
-                ورود | ثبت‌نام
-            </a>
         </div>
     </header>
 
@@ -117,3 +119,5 @@
 </body>
 
 </html>
+
+<!-- 7 -->
